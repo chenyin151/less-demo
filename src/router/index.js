@@ -3,8 +3,8 @@
  * @version: 
  * @Author: cy
  * @Date: 2021-04-09 15:21:49
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2021-04-12 00:05:01
+ * @LastEditors: cy
+ * @LastEditTime: 2021-04-12 16:05:38
  */
 import { createWebHistory, createRouter } from 'vue-router';
 import Index1 from '@/components/variable/Index1.vue';
@@ -25,6 +25,9 @@ import Index15 from '@/components/mixins/Index9.vue';
 import Index16 from '@/components/mixins/Index10.vue';
 import Index17 from '@/components/mixins/Index11.vue';
 import Index18 from '@/components/mixins/Index12.vue';
+import Index19 from '@/components/nesting/Index1.vue';
+import Index20 from '@/components/nesting/Index2.vue';
+import Index21 from '@/components/nesting/Index3.vue';
 const routes = [
     { 
         path: '/index1', 
@@ -115,6 +118,21 @@ const routes = [
         path: '/index18', 
         name: 'index18',
         component: Index18
+    },
+    { 
+        path: '/index19', 
+        name: 'index19',
+        component: Index19
+    },
+    { 
+        path: '/index20', 
+        name: 'index20',
+        component: Index20
+    },
+    { 
+        path: '/index21', 
+        name: 'index21',
+        component: Index21
     }
 ]
 const router = createRouter({
